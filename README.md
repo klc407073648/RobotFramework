@@ -9,6 +9,16 @@
 
 4. web测试库 ——[SeleniumLibrary](http://robotframework.org/SeleniumLibrary/SeleniumLibrary.html)
 
+# 指导
+
+## python安装requirements.txt文件
+
+requirements.txt为pip安装内容列表
+
+```
+pip install -r requirements.txt
+```
+
 
 
 https://github.com/MarketSquare/robotframework-requests
@@ -22,6 +32,9 @@ https://github.com/MarketSquare/robotframework-requests
 pip install robotframework-sshlibrary
 
 https://github.com/up1/course-robotframework
+
+python安装requirements.txt文件：
+pip install -r requirements.txt
 
 中文乱码解决：
 

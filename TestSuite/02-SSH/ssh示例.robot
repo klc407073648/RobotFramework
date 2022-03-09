@@ -18,8 +18,8 @@ Resource          ../resource.robot
 *** Keywords ***
 Open Connection And Login In
     [Documentation]    ssh创建连接
-    Open Connection    ${HOST}
-    Login    ${USERNAME}    ${PASSWORD}
+    Open Connection    ${SSH_HOST}
+    Login    ${SSH_USERNAME}    ${SSH_PASSWORD}
 
 Execute Command And Verify Output
     [Arguments]    ${cmd}    ${result}
